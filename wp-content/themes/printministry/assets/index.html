@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>print</title>
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__inner">
+                    <div class="logo-top">
+                        <a class="logo" href="index.html">
+                            <img class="logo__img" src="images/icons/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header__social">
+                        <ul class="header__social-list">
+                            <li class="header__social-item">
+                                <a class="header__social-link" href="#">
+                                    <svg class="header__social-img" width="38" height="36" viewBox="0 0 38 36"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.9688 5.9775H28.3885V0.2535C27.7985 0.1755 25.7695 0 23.4064 0C18.4758 0 15.0982 2.9805 15.0982 8.4585V13.5H9.65723V19.899H15.0982V36H21.7691V19.9005H26.99L27.8188 13.5015H21.7676V9.093C21.7691 7.2435 22.2873 5.9775 24.9688 5.9775V5.9775Z"
+                                            fill="#363636" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header__social-item">
+                                <a class="header__social-link" href="#">
+                                    <svg class="header__social-img" width="38" height="36" viewBox="0 0 38 36"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M26.0239 0H11.9766C5.51249 0 0.270508 5.03775 0.270508 11.25V24.75C0.270508 30.9622 5.51249 36 11.9766 36H26.0239C32.488 36 37.73 30.9622 37.73 24.75V11.25C37.73 5.03775 32.488 0 26.0239 0ZM34.2181 24.75C34.2181 29.0925 30.5424 32.625 26.0239 32.625H11.9766C7.45804 32.625 3.78233 29.0925 3.78233 24.75V11.25C3.78233 6.9075 7.45804 3.375 11.9766 3.375H26.0239C30.5424 3.375 34.2181 6.9075 34.2181 11.25V24.75Z"
+                                            fill="#363636" />
+                                        <path
+                                            d="M19.0006 9C13.8289 9 9.63574 13.0297 9.63574 18C9.63574 22.9703 13.8289 27 19.0006 27C24.1724 27 28.3655 22.9703 28.3655 18C28.3655 13.0297 24.1724 9 19.0006 9ZM19.0006 23.625C15.7744 23.625 13.1476 21.1005 13.1476 18C13.1476 14.8973 15.7744 12.375 19.0006 12.375C22.2268 12.375 24.8536 14.8973 24.8536 18C24.8536 21.1005 22.2268 23.625 19.0006 23.625Z"
+                                            fill="#363636" />
+                                        <path
+                                            d="M29.0672 9.52422C29.7564 9.52422 30.3151 8.9873 30.3151 8.32498C30.3151 7.66265 29.7564 7.12573 29.0672 7.12573C28.378 7.12573 27.8193 7.66265 27.8193 8.32498C27.8193 8.9873 28.378 9.52422 29.0672 9.52422Z"
+                                            fill="#363636" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header__social-item">
+                                <a class="header__social-link" href="#">
+                                    <svg class="header__social-img--email" width="38" height="36" viewBox="0 0 38 36"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.79995 4.74212L19.9666 17.9643M18.0371 17.9609L32.5418 4.52006M9.08333 7.66667V33.1667M28.9167 7.66667V33.1667M12.3889 34.1111H27.0278C32.2438 34.1111 36 31.7716 36 26.5556V11.4444C36 6.22842 31.7716 2 26.5556 2H11.4444C6.22842 2 2 6.22842 2 11.4444V26.5556C2 31.7716 7.17287 34.1111 12.3889 34.1111Z"
+                                            stroke="#363636" stroke-width="3" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="services.html">Услуги</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="about.html">О нас</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="materials.html">Материалы</a>
+                            </li>
+                        </ul>
+                        <ul class="menu__listWhite menu__list">
+                            <li class="menu__list-item menu__listWhite-item">
+                                <a class="menu__list-link menu__listWhite-link" href="#">FAQ</a>
+                            </li>
+                            <li class="menu__list-item menu__listWhite-item">
+                                <a class="menu__list-link menu__listWhite-link" href="contacts-page.html">Контакты</a>
+                            </li>
+                        </ul>
+                        <div class="menu__social">
+                            <ul class="menu__social-list">
+                                <li class="menu__social-item">
+                                    <a class="menu__social-link" href="#">
+                                        <svg class="menu__social-img" width="38" height="36" viewBox="0 0 38 36"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M24.9688 5.9775H28.3885V0.2535C27.7985 0.1755 25.7695 0 23.4064 0C18.4758 0 15.0982 2.9805 15.0982 8.4585V13.5H9.65723V19.899H15.0982V36H21.7691V19.9005H26.99L27.8188 13.5015H21.7676V9.093C21.7691 7.2435 22.2873 5.9775 24.9688 5.9775V5.9775Z"
+                                                fill="#363636" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="menu__social-item">
+                                    <a class="menu__social-link" href="#">
+                                        <svg class="menu__social-img" width="38" height="36" viewBox="0 0 38 36"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M26.0239 0H11.9766C5.51249 0 0.270508 5.03775 0.270508 11.25V24.75C0.270508 30.9622 5.51249 36 11.9766 36H26.0239C32.488 36 37.73 30.9622 37.73 24.75V11.25C37.73 5.03775 32.488 0 26.0239 0ZM34.2181 24.75C34.2181 29.0925 30.5424 32.625 26.0239 32.625H11.9766C7.45804 32.625 3.78233 29.0925 3.78233 24.75V11.25C3.78233 6.9075 7.45804 3.375 11.9766 3.375H26.0239C30.5424 3.375 34.2181 6.9075 34.2181 11.25V24.75Z"
+                                                fill="#363636" />
+                                            <path
+                                                d="M19.0006 9C13.8289 9 9.63574 13.0297 9.63574 18C9.63574 22.9703 13.8289 27 19.0006 27C24.1724 27 28.3655 22.9703 28.3655 18C28.3655 13.0297 24.1724 9 19.0006 9ZM19.0006 23.625C15.7744 23.625 13.1476 21.1005 13.1476 18C13.1476 14.8973 15.7744 12.375 19.0006 12.375C22.2268 12.375 24.8536 14.8973 24.8536 18C24.8536 21.1005 22.2268 23.625 19.0006 23.625Z"
+                                                fill="#363636" />
+                                            <path
+                                                d="M29.0672 9.52422C29.7564 9.52422 30.3151 8.9873 30.3151 8.32498C30.3151 7.66265 29.7564 7.12573 29.0672 7.12573C28.378 7.12573 27.8193 7.66265 27.8193 8.32498C27.8193 8.9873 28.378 9.52422 29.0672 9.52422Z"
+                                                fill="#363636" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="menu__social-item">
+                                    <a class="menu__social-link" href="#">
+                                        <svg class="menu__social-img--email" width="38" height="36" viewBox="0 0 38 36"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.79995 4.74212L19.9666 17.9643M18.0371 17.9609L32.5418 4.52006M9.08333 7.66667V33.1667M28.9167 7.66667V33.1667M12.3889 34.1111H27.0278C32.2438 34.1111 36 31.7716 36 26.5556V11.4444C36 6.22842 31.7716 2 26.5556 2H11.4444C6.22842 2 2 6.22842 2 11.4444V26.5556C2 31.7716 7.17287 34.1111 12.3889 34.1111Z"
+                                                stroke="#363636" stroke-width="3" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <button class="menu__btn">
+                        <span class="menu__btn-line"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="popup" id="popup">
+            <div class="popup__box">
+                <div class="popup__content">
+                    <a class="popup__close close-popup" href="#header">X</a>
+                    <div class="popup__form">
+                        <form class="connection__form" method="post">
+                            <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="Print Ministry">
+                            <input type="hidden" name="admin_email" value="lotousvv@gmail.com">
+                            <input type="hidden" name="form_subject" value="Form connection">
+                            <!-- END Hidden Required Fields -->
+    
+                            <input class="connection__input" type="text" name="first_name" placeholder="Имя">
+                            <input class="connection__input" type="tel" name="tel" required placeholder="Телефон">
+                            <input class="connection__input" type="email" name="email" required placeholder="E-mail">
+                            <input class="connection__btn" type="submit" name="submit" value="Отправить">
+                        </form>
+                        <p class="connection__politics">
+                            Нажимая кнопку «Отправить» Вы соглашаетесь на обработку предоставленных Вами персональных
+                            данных.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="top-header">
+            <div class="container">
+                <div class="top-header__wrapper">
+
+                    <div class="top-header__item">
+                        <h1 class="top-header__title">Трафаретная печать на текстиле</h1>
+                        <a class="top-header__link popup__link" href="#popup">Заказать</a>
+                    </div>
+                    <div class="slider">
+                        <div class="top-slider">
+                            <div class="top-slider__inner">
+                                <div class="top-slider__item">
+                                    <img class="top-slider__images" src="images/slider/slider-1.jpg" alt="slider image">
+                                    <div class="top-slider__content">
+                                        <span class="top-slider__numbr">01</span>
+                                        <p class="top-slider__text">
+                                            За 10 лет мы выполнили более 10 000 заказов, и отпечатали более 5 миллионов
+                                            изделий.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-slider__inner">
+                                <div class="top-slider__item">
+                                    <img class="top-slider__images" src="images/slider/slider-2.png" alt="slider image">
+                                    <div class="top-slider__content">
+                                        <span class="top-slider__numbr">02</span>
+                                        <p class="top-slider__text">
+                                            Более 100 довольных клиентов. Мы работаем с расчётом на долгосрочную
+                                            перспективу сотрудничества.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-slider__inner">
+                                <div class="top-slider__item">
+                                    <img class="top-slider__images" src="images/slider/slider-3.jpg" alt="slider image">
+                                    <div class="top-slider__content">
+                                        <span class="top-slider__numbr">03</span>
+                                        <p class="top-slider__text">
+                                            Широкий спектр возможностей нашего оборудования позволяет нам производить
+                                            печать как на крое, так и на готовом изделии.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="top-header__social">
+                    <ul class="top-header__social-list">
+                        <li class="top-header__social-item">
+                            <a class="top-header__social-link" href="#">
+                                <svg class="top-header__social-img" width="38" height="36" viewBox="0 0 38 36"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M24.9688 5.9775H28.3885V0.2535C27.7985 0.1755 25.7695 0 23.4064 0C18.4758 0 15.0982 2.9805 15.0982 8.4585V13.5H9.65723V19.899H15.0982V36H21.7691V19.9005H26.99L27.8188 13.5015H21.7676V9.093C21.7691 7.2435 22.2873 5.9775 24.9688 5.9775V5.9775Z"
+                                        fill="#363636" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="top-header__social-item">
+                            <a class="top-header__social-link" href="#">
+                                <svg class="top-header__social-img" width="38" height="36" viewBox="0 0 38 36"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M26.0239 0H11.9766C5.51249 0 0.270508 5.03775 0.270508 11.25V24.75C0.270508 30.9622 5.51249 36 11.9766 36H26.0239C32.488 36 37.73 30.9622 37.73 24.75V11.25C37.73 5.03775 32.488 0 26.0239 0ZM34.2181 24.75C34.2181 29.0925 30.5424 32.625 26.0239 32.625H11.9766C7.45804 32.625 3.78233 29.0925 3.78233 24.75V11.25C3.78233 6.9075 7.45804 3.375 11.9766 3.375H26.0239C30.5424 3.375 34.2181 6.9075 34.2181 11.25V24.75Z"
+                                        fill="#363636" />
+                                    <path
+                                        d="M19.0006 9C13.8289 9 9.63574 13.0297 9.63574 18C9.63574 22.9703 13.8289 27 19.0006 27C24.1724 27 28.3655 22.9703 28.3655 18C28.3655 13.0297 24.1724 9 19.0006 9ZM19.0006 23.625C15.7744 23.625 13.1476 21.1005 13.1476 18C13.1476 14.8973 15.7744 12.375 19.0006 12.375C22.2268 12.375 24.8536 14.8973 24.8536 18C24.8536 21.1005 22.2268 23.625 19.0006 23.625Z"
+                                        fill="#363636" />
+                                    <path
+                                        d="M29.0672 9.52422C29.7564 9.52422 30.3151 8.9873 30.3151 8.32498C30.3151 7.66265 29.7564 7.12573 29.0672 7.12573C28.378 7.12573 27.8193 7.66265 27.8193 8.32498C27.8193 8.9873 28.378 9.52422 29.0672 9.52422Z"
+                                        fill="#363636" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="top-header__social-item">
+                            <a class="top-header__social-link" href="#">
+                                <svg class="top-header__social-img--email" width="38" height="36" viewBox="0 0 38 36"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.79995 4.74212L19.9666 17.9643M18.0371 17.9609L32.5418 4.52006M9.08333 7.66667V33.1667M28.9167 7.66667V33.1667M12.3889 34.1111H27.0278C32.2438 34.1111 36 31.7716 36 26.5556V11.4444C36 6.22842 31.7716 2 26.5556 2H11.4444C6.22842 2 2 6.22842 2 11.4444V26.5556C2 31.7716 7.17287 34.1111 12.3889 34.1111Z"
+                                        stroke="#363636" stroke-width="3" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2 class="title services__title">Наши услуги</h2>
+                <div class="services__items">
+                    <div class="services__item">
+                        <div class="services__wrapper-img">
+                            
+                        </div>
+                        <div class="services__wrapper">
+                            <h3 class="services__subtitle">Растровая печать</h3>
+                            <p class="services__text">
+                                Печать дизайнов растром позволяет воспроизводить полноцветные принты любой сложности.Печать
+                                дизайнов растром позволяет воспроизводить полноцветные принты любой сложности.
+                            </p>
+                            <div class="services__bottom">
+                                <a class="services__link" href="services.html#rastrprint">
+                                    <p class="services__link-text">Подробнее</p>
+                                    <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36"
+                                            stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__wrapper-img">
+                            
+                        </div>
+                        <div class="services__wrapper">
+                            <h3 class="services__subtitle">Печать спецэффектов</h3>
+                            <p class="services__text">
+                                В ассортименте имеется богатый выбор разнообразных спецэффектов. Паф, гель, высокая печать
+                                итд. Наш многолетний опыт позволяет нам с лёгкостью выполнять даже самые изощрённые заказы.
+                            </p>
+                            <div class="services__bottom">
+                                <a class="services__link" href="services.html#effectprint">
+                                    <p class="services__link-text">Подробнее</p>
+                                    <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36"
+                                            stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__wrapper-img">
+                            
+                        </div>
+                        <div class="services__wrapper">
+                            <h3 class="services__subtitle">Термотрансферы</h3>
+                            <p class="services__text">
+                                Высококачественные и износостойкие шелкотрафаретные трансферы. Высококачественные и
+                                износостойкие шелкотрафаретные трансферы.
+                            </p>
+                            <div class="services__bottom">
+                                <a class="services__link" href="services.html#termoprint">
+                                    <p class="services__link-text">Подробнее</p>
+                                    <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36"
+                                            stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="printing">
+            <div class="container">
+                <h2 class="printing__title title">На чем мы печатаем?</h2>
+                <div class="printing__wrapper">
+                    <div class="printing__wrapper-inner">
+                        <div class="printing__wrapper-box">
+                            <h3 class="printing__wrapper-subtitle">
+                                <span>01/</span>
+                                Крой
+                            </h3>
+                            <p class="printing__wrapper-text">
+                                Печать на крое позволяет воплощать разнообразные идеи такие как: тотальная запечатка, или
+                                печать с выходом из-под шва. Данный вариант очень удобен для производителей одежды для
+                                минимизации брака и более точного расположения принта.
+                            </p>
+                        </div>
+                        <div class="printing-img__inner">
+                            <img class="printing__image" src="images/printing/kroy.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="printing__wrapper-inner">
+                        <div class="printing-img__inner">
+                            <img class="printing__image" src="images/printing/2.jpg" alt="">
+                        </div>
+                        <div class="printing__wrapper-box">
+                            <h3 class="printing__wrapper-subtitle">
+                                <span>02/</span>
+                                Готовые изделия
+                            </h3>
+                            <p class="printing__wrapper-text">
+                                Печать на готовых изделиях является отличным вариантом при требовании к оперативному
+                                выполнению заказа. Мы можем предложить вам наши варианты со склада, либо отпечатать на
+                                ваших изделия.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2 class="title about__title">О нас</h2>
+            <div class="about__inner">
+                <div class="about__left"></div>
+                <div class="about__info">
+                    <h2 class="title about__subtitle">Print Ministry</h2>
+                    <p class="about__text">
+                        Принт министри - производственная компания специализирующаяся на шелкотрафаретной печати. С
+                        момента основания цеха в 2012 году, мы без устали оттачивали наш печатный процесс и гордимся
+                        нашей лёгкостью сотрудничества и эффективностью обработки заказов.
+                    </p>
+                    <span class="materials-page__inner-coment">
+                        Высокие стандарты качества оправдали наше стремление стать лучшим печатным цехом Украины. Тем
+                        самым значительно выделяя нас от среди конкурентов.
+                    </span>
+
+                    <a class="about__link" href="#">
+                        <p class="about__link-text">Подробнее</p>
+                        <svg width="38" height="140" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#FFFAF5" stroke-width="2" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits">
+            <div class="container">
+                <h2 class="title benefits__title">Наши преимущества</h2>
+                <div class="benefits__inner">
+                    <div class="benefits__items">
+                        <img class="benefits__image" src="images/benefits/volumes.svg" alt="benefits icon">
+                        <h4 class="benefits__subtitle">Количество</h4>
+                        <p class="benefits__text">
+                            Производственные объемы
+                            до 10тыс. оттисков в сутки
+                        </p>
+                    </div>
+                    <div class="benefits__items">
+                        <img class="benefits__image" src="images/benefits/equipment.svg" alt="benefits icon">
+                        <h4 class="benefits__subtitle">Оборудование</h4>
+                        <p class="benefits__text">
+                            Используем новейшее оборудование от лучших мировых производителей
+                        </p>
+                    </div>
+                    <div class="benefits__items">
+                        <img class="benefits__image" src="images/benefits/experience.svg" alt="benefits icon">
+                        <h4 class="benefits__subtitle">Опыт</h4>
+                        <p class="benefits__text">
+                            Работаем на рынке Украины более 10 лет
+                        </p>
+                    </div>
+                    <div class="benefits__items">
+                        <img class="benefits__image" src="images/benefits/materials.svg" alt="benefits icon">
+                        <h4 class="benefits__subtitle">Материалы</h4>
+                        <p class="benefits__text">
+                            Используем только высококачественные материалы
+                        </p>
+                    </div>
+                    <div class="benefits__items">
+                        <img class="benefits__image" src="images/benefits/designers.svg
+                        " alt="benefits icon">
+                        <h4 class="benefits__subtitle">Дизайнеры</h4>
+                        <p class="benefits__text">
+                            Наши специалисты помогут вам
+                            с разработкой дизайна
+                        </p>
+                    </div>
+                    <div class="benefits__items">
+                        <img class="benefits__image" src="images/benefits/flexibility.svg" alt="benefits icon">
+                        <h4 class="benefits__subtitle">Гибкость</h4>
+                        <p class="benefits__text">
+                            Мы всегда идём на встречу нашим клиентам
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="materials">
+            <h2 class="title materials__title">Материалы</h2>
+            <div class="materials__wrapper">
+                <div class="materials__inner">
+                    <div class="materials__inner-box">
+                        <div class="materials__inner-item">
+                            <span class="materials__numbr">01/</span>
+                            <span class="materials__row">
+                                <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36"
+                                        stroke-width="2" />
+                                </svg>
+                            </span>
+                            <a class="materials__text" href="#">Пластизоль</a>
+                            <img class="materials__img-plast materials-images" src="images/materials/1.png" alt="">
+                        </div>
+                        <a class="materials__link" href="#">
+                            <p class="materials__link-text">Подробнее</p>
+                            <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36" stroke-width="2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="materials__inner">
+                    <div class="materials__inner-box">
+                        <div class="materials__inner-item">
+                            <span class="materials__numbr">02/</span>
+                            <span class="materials__row">
+                                <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36"
+                                        stroke-width="2" />
+                                </svg>
+                            </span>
+                            <a class="materials__text" href="#">Водная</a>
+                            <img class="materials__img-water materials-images" src="images/materials/2.png" alt="">
+                        </div>
+                        <a class="materials__link" href="#">
+                            <p class="materials__link-text">Подробнее</p>
+                            <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36" stroke-width="2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="materials__inner">
+                    <div class="materials__inner-box">
+                        <div class="materials__inner-item">
+                            <span class="materials__numbr">03/</span>
+                            <span class="materials__row">
+                                <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36"
+                                        stroke-width="2" />
+                                </svg>
+                            </span>
+                            <a class="materials__text" href="#">Водная кроющая</a>
+                            <img class="materials__img-watercover materials-images" src="images/materials/3.png" alt="">
+                        </div>
+                        <a class="materials__link" href="#">
+                            <p class="materials__link-text">Подробнее</p>
+                            <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36" stroke-width="2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="materials__inner">
+                    <div class="materials__inner-box">
+                        <div class="materials__inner-item">
+                            <span class="materials__numbr">04/</span>
+                            <span class="materials__row">
+                                <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36"
+                                        stroke-width="2" />
+                                </svg>
+                            </span>
+                            <a class="materials__text" href="#">Вытравная</a>
+                            <img class="materials__img-etching materials-images" src="images/materials/4.png" alt="">
+                        </div>
+                        <a class="materials__link" href="#">
+                            <p class="materials__link-text">Подробнее</p>
+                            <svg width="38" height="24" viewBox="0 0 38 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 12L36 12M36 12L22.5 23M36 12L22.5 1" stroke="#DC6E36" stroke-width="2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work">
+            <div class="container">
+                <h2 class="work__title title">Этапы работы</h2>
+                <div class="work__wrapper">
+                    <div class="work__wrapper-one">
+                        <div class="work__inner">
+                            <div class="work__item">
+                                <h4 class="work__subtitle">Оформление <br>
+                                    заказа</h4>
+                                <span class="work__numbr">/01</span>
+                            </div>
+                            <p class="work__text">
+                                Обработка заявки, обсуждение
+                                и формирование бюджета, подготовка документов.
+                            </p>
+                        </div>
+                        <div class="work__inner">
+                            <div class="work__item">
+                                <h4 class="work__subtitle">Разработка <br>
+                                    дизайна</h4>
+                                <span class="work__numbr">/02</span>
+                            </div>
+                            <p class="work__text">
+                                Знакомство с вашим макетом, создание нового дизайна, согласование и доработка макета
+                            </p>
+                        </div>
+                        <div class="work__inner">
+                            <div class="work__item">
+                                <h4 class="work__subtitle">Оплата</h4>
+                                <span class="work__numbr">/03</span>
+                            </div>
+                            <p class="work__text">
+                                Оплата полностью или частями, возможна предоплата
+                            </p>
+                        </div>
+                        <div class="work__inner">
+                            <div class="work__item">
+                                <h4 class="work__subtitle">Производство</h4>
+                                <span class="work__numbr">/04</span>
+                            </div>
+                            <p class="work__text">
+                                Изготовление продукции в оговоренные сроки
+                            </p>
+                        </div>
+                    </div>
+                    <div class="work__wrapper-two">
+                        <div class="work__inner work__inner-image">
+                        </div>
+                        <div class="work__inner">
+                            <div class="work__item">
+                                <h4 class="work__subtitle">Доставка</h4>
+                                <span class="work__numbr">/05</span>
+                            </div>
+                            <p class="work__text">
+                                Уведомление о готовности, доставка удобным для вас способом.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="connection">
+            <div class="container">
+                <div class="connection__wrapper">
+                    <h2 class="title connection__title">Свяжитесь с нами</h2>
+                    <p class="connection__text">
+                        Оставьте Ваши контактные данные для уточнения деталей
+                    </p>
+                    <form class="connection__form" method="post">
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Print Ministry">
+                        <input type="hidden" name="admin_email" value="lotousvv@gmail.com">
+                        <input type="hidden" name="form_subject" value="Form connection">
+                        <!-- END Hidden Required Fields -->
+
+                        <input class="connection__input" type="text" name="first_name" placeholder="Имя">
+                        <input class="connection__input" type="tel" name="tel" required placeholder="Телефон">
+                        <input class="connection__input" type="email" name="email" required placeholder="E-mail">
+                        <input class="connection__btn" type="submit" name="submit" value="Отправить">
+                    </form>
+                    <p class="connection__politics">
+                        Нажимая кнопку «Отправить» Вы соглашаетесь на обработку предоставленных Вами персональных
+                        данных.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions">
+            <div class="container">
+                <h2 class="title questions__title">FAQ</h2>
+                <div class="questions__wrapper">
+                    <div class="questions__items questions__items--active">
+                        <h4 class="questions__item-title">Какие сроки обработки заказа? </h4>
+                        <div class="block block--active" style="height: 0;">
+                            <p class="questions__item-text questions__item-text--active">
+                                I'm a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or double click me to add your own content and make changes to the font.I'm a
+                                paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or
+                                double click me to add your own content and make changes to the font.I'm a paragraph.
+                                I'm a
+                                paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or
+                                double click me to add your own content and make changes to the font.I'm a paragraph.
+                                Click
+                                here to add your own text and edit me. Its easy. Just click “Edit Text”or double click
+                                me to
+                                add your own content and make changes to the font.I'm a paragraph.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="questions__items questions__items--offset">
+                        <h4 class="questions__item-title">Как происходит просчёт? </h4>
+                        <div class="block block--ofset" style="height: 0;">
+                            <p class="questions__item-text questions__item-text--active">
+                                I'm a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or double click me to add your own content and make changes to the font.I'm a
+                                paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or
+                                double click me to add your own content and make changes to the font.I'm a paragraph.
+                                I'm a
+                                paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or
+                                double click me to add your own content and make changes to the font.I'm a paragraph.
+                                Click
+                                here to add your own text and edit me. Its easy. Just click “Edit Text”or double click
+                                me to
+                                add your own content and make changes to the font.I'm a paragraph.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="questions__items questions__items--offset">
+                        <h4 class="questions__item-title">Чем мы отличаемся от других печатных компаний? </h4>
+                        <div class="block block--ofset" style="height: 0;">
+                            <p class="questions__item-text questions__item-text--active">
+                                I'm a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or double click me to add your own content and make changes to the font.I'm a
+                                paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or
+                                double click me to add your own content and make changes to the font.I'm a paragraph.
+                                I'm a
+                                paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or
+                                double click me to add your own content and make changes to the font.I'm a paragraph.
+                                Click
+                                here to add your own text and edit me. Its easy. Just click “Edit Text”or double click
+                                me to
+                                add your own content and make changes to the font.I'm a paragraph.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="questions__items questions__items--offset">
+                        <h4 class="questions__item-title">Сколько стирок выдерживают изделия?</h4>
+                        <div class="block block--ofset" style="height: 0;">
+                            <p class="questions__item-text questions__item-text--active">
+                                I'm a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or double click me to add your own content and make changes to the font.I'm a
+                                paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or
+                                double click me to add your own content and make changes to the font.I'm a paragraph.
+                                I'm a
+                                paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit
+                                Text”or
+                                double click me to add your own content and make changes to the font.I'm a paragraph.
+                                Click
+                                here to add your own text and edit me. Its easy. Just click “Edit Text”or double click
+                                me to
+                                add your own content and make changes to the font.I'm a paragraph.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__inner">
+                    <a class="logo footer-logo" href="index.html">
+                        <img class="footer-logo__img" src="images/icons/logo-white.svg" alt="logo">
+                    </a>
+                    <p class="footer__inner-copy">
+                        © 2023 Print Ministry
+                    </p>
+                </div>
+                <div class="footer__menu">
+                    <h4 class="footer__title">Меню</h4>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a href="services.html" class="footer__menu-link">Услуги</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="about.html" class="footer__menu-link">О компании</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="contacts-page.html" class="footer__menu-link">Контакты</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="materials.html" class="footer__menu-link">Материалы</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="" class="footer__menu-link">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__contacts">
+                    <h4 class="footer__title">Контакты</h4>
+                    <div class="footer__contacts-items">
+                        <a class="footer__contacts-email footer__contacts-item"
+                            href="mailto:vladimirlotous@gmail.com">Vladimirlotous@gmail.com</a>
+                        <a class="footer__contacts-tel footer__contacts-item" href="tel:+380975711628">+38 (097)
+                            571-16-28</a>
+                        <a class="footer__contacts-adress footer__contacts-item" href="https://www.google.com.ua/maps/place/49%C2%B000'38.4%22N+33%C2%B038'45.3%22E/@49.0106552,33.6451442,18z/data=!3m1!4b1!4m14!1m7!3m6!1s0x40d9ffcd5cc0be81:0x7a11652706be2492!2z0JPQvtGA0LjRiNC90LjQtSDQn9C70LDQstC90LgsINCf0L7Qu9GC0LDQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGM!3b1!8m2!3d49.0156679!4d33.6450451!3m5!1s0x0:0xfca17aabf4806c3d!7e2!8m2!3d49.0106536!4d33.6459177?hl=ru">г. Горишние Плавни,<br>
+                            ул. Молодежная, 11,
+                            Полтавская обл.</a>
+                        <p class="footer__contacts-time footer__contacts-item" href="">Пн – Пт 9:00 – 17:30</p>
+                    </div>
+                </div>
+
+                <div class="footer__question">
+                    <h4 class="footer__question-title">Остались вопросы?</h4>
+                    <p class="footer__question-text">
+                        Оставьте e-mail и мы свяжемся с Вами
+                    </p>
+                    <form class="footer__question-form">
+                        <input type="hidden" name="project_name" value="Print Ministry">
+                        <input type="hidden" name="admin_email" value="lotousvv@gmail.com">
+                        <input type="hidden" name="form_subject" value="Form footer">
+
+                        <input class="footer__question-input" type="email" name="email" placeholder="E-mail" required>
+                        <button class="footer__question-btn" type="submit">
+                            <img class="footer__question-btn__img" src="images/icons/arrow-btn.svg" alt="Отправить">
+                        </button>
+                    </form>
+                    <ul class="footer__question-social">
+                        <li class="footer__question-icon">
+                            <a class="footer__question-link" href="#">
+                                <svg class="footer__question-img" width="38" height="36" viewBox="0 0 38 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M24.9688 5.9775H28.3885V0.2535C27.7985 0.1755 25.7695 0 23.4064 0C18.4758 0 15.0982 2.9805 15.0982 8.4585V13.5H9.65723V19.899H15.0982V36H21.7691V19.9005H26.99L27.8188 13.5015H21.7676V9.093C21.7691 7.2435 22.2873 5.9775 24.9688 5.9775V5.9775Z"
+                                        fill="#FFFAF5" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__question-icon">
+                            <a class="footer__question-link" href="#">
+                                <svg class="footer__question-img" width="38" height="36" viewBox="0 0 38 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M26.0239 0H11.9766C5.51249 0 0.270508 5.03775 0.270508 11.25V24.75C0.270508 30.9622 5.51249 36 11.9766 36H26.0239C32.488 36 37.73 30.9622 37.73 24.75V11.25C37.73 5.03775 32.488 0 26.0239 0ZM34.2181 24.75C34.2181 29.0925 30.5424 32.625 26.0239 32.625H11.9766C7.45804 32.625 3.78233 29.0925 3.78233 24.75V11.25C3.78233 6.9075 7.45804 3.375 11.9766 3.375H26.0239C30.5424 3.375 34.2181 6.9075 34.2181 11.25V24.75Z"
+                                        fill="#FFFAF5" />
+                                    <path
+                                        d="M19.0006 9C13.8289 9 9.63574 13.0297 9.63574 18C9.63574 22.9703 13.8289 27 19.0006 27C24.1724 27 28.3655 22.9703 28.3655 18C28.3655 13.0297 24.1724 9 19.0006 9ZM19.0006 23.625C15.7744 23.625 13.1476 21.1005 13.1476 18C13.1476 14.8973 15.7744 12.375 19.0006 12.375C22.2268 12.375 24.8536 14.8973 24.8536 18C24.8536 21.1005 22.2268 23.625 19.0006 23.625Z"
+                                        fill="#FFFAF5" />
+                                    <path
+                                        d="M29.0672 9.52422C29.7564 9.52422 30.3151 8.9873 30.3151 8.32498C30.3151 7.66265 29.7564 7.12573 29.0672 7.12573C28.378 7.12573 27.8193 7.66265 27.8193 8.32498C27.8193 8.9873 28.378 9.52422 29.0672 9.52422Z"
+                                        fill="#FFFAF5" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__question-icon">
+                            <a class="footer__question-link" href="#">
+                                <svg class="footer__question-img--email" width="38" height="36" viewBox="0 0 38 36"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.79995 4.74212L19.9666 17.9643M18.0371 17.9609L32.5418 4.52006M9.08333 7.66667V33.1667M28.9167 7.66667V33.1667M12.3889 34.1111H27.0278C32.2438 34.1111 36 31.7716 36 26.5556V11.4444C36 6.22842 31.7716 2 26.5556 2H11.4444C6.22842 2 2 6.22842 2 11.4444V26.5556C2 31.7716 7.17287 34.1111 12.3889 34.1111Z"
+                                        stroke="#FFFAF5" stroke-width="3" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
